@@ -4,7 +4,7 @@ describe('the countAllPaarl function', function(){
     assert.equal(countAllPaarl('CJ 3123,CJ 2345,CL 123-546'),1);
   });
 
-  it('should count an incorrect amount from Paarl', function(){
-    assert.equal(countAllPaarl('CJ 3123','CJ 2345','CJ 123-546','CL 97979'),1);
+  it('should show none from Paarl', function(){
+    assert.equal(countAllPaarl('CD 3123','CD 2345','CCD 123-546','CD 97979'),0);
   });
 });

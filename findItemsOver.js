@@ -7,5 +7,5 @@ function findItemsOver(item,amount){
     man.push(theitem)
     }
   }
-  return man;
+  return man.length;
 };
