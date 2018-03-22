@@ -8,7 +8,7 @@
 
 describe('the findItemsOver function', function(){
   var itemList = [
-    {name : 'apples', qty : 10},
+    {name : 'apples', qty : 11},
     {name : 'pears', qty : 50},
     {name : 'bananas', qty : 27},
     {name : 'apples', qty : 30},
