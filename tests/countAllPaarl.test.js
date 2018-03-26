@@ -1,7 +1,7 @@
 describe('the countAllPaarl function', function(){
 
-  it('should count that 1 vehicle  is from Paarl', function(){
-    assert.equal(countAllPaarl('CJ 3123,CJ 2345,CL 123-546'),1);
+  it('should count that 2 vehicle  is from Paarl', function(){
+    assert.equal(countAllPaarl('CJ 3123, CJ 2345,CL 123-546'),2);
   });
 
   it('should show that no vehicle is from Paarl', function(){
