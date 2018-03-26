@@ -1,3 +1,3 @@
 function countRegNumber(Reg){
-  return Reg.split(',').length;
+  return Reg.split(', ').length;
 }
